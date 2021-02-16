@@ -1,3 +1,11 @@
 body {
     background: black;
 }
+.center {
+    margin-top: 80px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}

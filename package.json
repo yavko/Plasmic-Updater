@@ -1,7 +1,22 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "name": "plasmic-updater",
+  "version": "1.0.0",
+  "description": "Updates Plasmic on start",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yavko/Plasmic-Updater.git"
+  },
+  "author": "yavko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yavko/Plasmic-Updater/issues"
+  },
+  "homepage": "https://github.com/yavko/Plasmic-Updater#readme",
   "dependencies": {
-    $END$
+    "electron": "^11.2.3"
   }
 }
